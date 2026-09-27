@@ -390,6 +390,10 @@ body {
   color: #fff;
 }
 
+.gifts .list-group-item{
+background-color: #cccccc17;
+}
+
 footer {
   padding: 3rem;
   background-color: #13522f;
