@@ -36,7 +36,6 @@ body {
   text-shadow: var(--shadow);
 }
 .hero h2 {
-  margin-bottom: 10rem;
   font-family: "Sacramento", cursive;
   font-size: 4rem;
 
@@ -524,6 +523,10 @@ footer li {
     font-size: 60%;
   }
 
+  .hero h2{
+  margin-bottom: 10rem;
+}
+  
   .hero h4 {
     padding-bottom: 10px;
   }
