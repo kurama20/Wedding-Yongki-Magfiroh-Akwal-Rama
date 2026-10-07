@@ -19,7 +19,7 @@ body {
   height: 100%;
   background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #000000 100%),
-    url(img/2.jpeg);
+    url(img/3.PNG);
   background-size: cover;
   background-position: center 56%;
   z-index: -1;
@@ -40,29 +40,35 @@ body {
   font-size: 4rem;
 
   /* Memberikan ketebalan outline tipis */
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.9),
+    0px 0px 8px rgba(0, 0, 0, 0.8);
+  font-weight: 500; /* Mempertebal sedikit hurufnya */
+  /* Memberikan ketebalan outline tipis */
   -webkit-text-stroke: #ffffff;
-  /* Memberikan bayangan hitam tipis agar teks lebih tegas dan terbaca */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   padding-bottom: 15rem;
 }
 
 .hero h4 {
   font-size: 1.6rem;
-  
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.9),
+    0px 0px 8px rgba(0, 0, 0, 0.8);
+  font-weight: 500; /* Mempertebal sedikit hurufnya */
   /* Memberikan ketebalan outline tipis */
   -webkit-text-stroke: #ffffff;
-  /* Memberikan bayangan hitam tipis agar teks lebih tegas dan terbaca */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .hero p {
   margin-top: -4rem;
   font-size: 1.4rem;
 
+ text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.9),
+    0px 0px 8px rgba(0, 0, 0, 0.8);
+  font-weight: 500; /* Mempertebal sedikit hurufnya */
   /* Memberikan ketebalan outline tipis */
   -webkit-text-stroke: #ffffff;
-  /* Memberikan bayangan hitam tipis agar teks lebih tegas dan terbaca */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .hero a {
