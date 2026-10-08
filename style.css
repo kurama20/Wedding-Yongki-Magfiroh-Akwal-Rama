@@ -38,15 +38,17 @@ body {
 .hero h2 {
   font-family: "Sacramento", cursive;
   font-size: 4rem;
-
-  /* Memberikan ketebalan outline tipis */
   text-shadow:
     2px 2px 4px rgba(0, 0, 0, 0.9),
     0px 0px 8px rgba(0, 0, 0, 0.8);
-  font-weight: 500; /* Mempertebal sedikit hurufnya */
-  /* Memberikan ketebalan outline tipis */
-  -webkit-text-stroke: #ffffff;
-  padding-bottom: 15rem;
+  font-weight: 500;
+
+  /* HAPUS padding-bottom 15rem */
+  padding-bottom: 0;
+
+  /* Naikkan tulisan */
+  position: relative;
+  top: -100px;
 }
 
 .hero h4 {
@@ -54,13 +56,15 @@ body {
   text-shadow:
     2px 2px 4px rgba(0, 0, 0, 0.9),
     0px 0px 8px rgba(0, 0, 0, 0.8);
-  font-weight: 500; /* Mempertebal sedikit hurufnya */
-  /* Memberikan ketebalan outline tipis */
-  -webkit-text-stroke: #ffffff;
+  font-weight: 500;
+
+  /* Naikkan tulisan */
+  position: relative;
+  top: -100px;
 }
 
 .hero p {
-  margin-top: -4rem;
+  margin-top: 10rem;
   font-size: 1.4rem;
 
  text-shadow:
